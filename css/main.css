@@ -1,0 +1,109 @@
+html {
+    background: url("../img/seigaiha.png") repeat;
+}
+
+body {
+    background: url("../img/BA_new_icon.png") top right no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.small_header {
+    font-size: .5em;
+    color: #ccc;
+    font-style: italic;
+}
+
+.text-block {
+    font-size: 16px;
+    color: #888;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.list__unit:hover {
+    background: url("../img/short_arrow_right-512.png") no-repeat;
+    /*list-style-image: url("../img/short_arrow_right-512.png");*/
+}
+
+.for_arrow:hover {
+    background: #eee;
+}
+
+.list__unit-link {
+    text-decoration: none;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+.list__unit-link:hover {
+    color: #333;
+}
+
+.list__unit-link:active {
+    text-decoration: overline;
+}
+
+.list__unit-link:visited {
+    color: #a9a;
+}
+
+.section__header {
+    font-family: cursive;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.section__text {
+    margin: 0;
+    font-family: cursive;
+    text-indent: 40px;
+    font-size: 18px;
+    text-align: justify;
+    color: #222;
+    font-weight: 900;
+}
+
+.section__text:first-line {
+    font-size: 1.3em;
+    color: #a83;
+}
+
+.section__text:first-letter {
+    color: #ea3;
+    font-size: 2em;
+}
+
+.table {
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.table__header {
+    background: #666;
+    color: #fff;
+}
+
+.table__footer {
+    background: #a83;
+    color: #fff;;
+}
+
+.table__row:hover {
+    background: #ccc;
+}
